@@ -131,17 +131,17 @@ def update_output(spread):
     fig.update_xaxes(visible=False)
     fig.update_yaxes(visible=False)
 
-    fig.add_trace(go.Scatter(
-        x=[x_max],
-        y=[y_max],
-        marker=dict(
-            color='white',
-            size=16,
-            symbol='star'),
-        mode='markers+text',
-        text=[f'{np.max(score_map):.1f}'],
-        textposition="bottom center",
-        textfont_color='white'))
+    # fig.add_trace(go.Scatter(
+    #     x=[x_max],
+    #     y=[y_max],
+    #     marker=dict(
+    #        color='white',
+    #        size=16,
+    #        symbol='star'),
+    #    mode='markers+text',
+    #    text=[f'{np.max(score_map):.1f}'],
+    #    textposition="bottom center",
+    #    textfont_color='white'))
 
     return fig
 
