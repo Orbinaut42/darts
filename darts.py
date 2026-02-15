@@ -125,8 +125,8 @@ def update_output(spread):
         score_map,
         color_continuous_scale='hot',
         zmax=60,
-        width=800,
-        height=800,
+        # width=800,
+        # height=800,
         origin='lower')
 
     fig.update_traces(hovertemplate='Score: %{z}<extra></extra>')
