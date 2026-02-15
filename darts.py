@@ -154,7 +154,7 @@ app.layout = html.Div([
             fontFamily='Sans-serif',
             marginBottom='20px')),
     html.Div(
-        'Durchmesser der Fläche, in die 70% der Würfe fallen:',
+        'Durchmesser der Fläche, in die 70% der Würfe fallen (in mm):',
         style=dict(
             fontFamily='Sans-serif',
             marginBottom='10px')),
