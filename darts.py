@@ -130,6 +130,7 @@ def update_output(spread):
     fig.update_traces(hovertemplate='Score: %{z}<extra></extra>')
     fig.update_xaxes(visible=False)
     fig.update_yaxes(visible=False)
+    fig.update_layout(xaxis_fixedrange=True, yaxis_fixedrange=True)
 
     fig.add_trace(go.Scatter(
         x=[x_max],
