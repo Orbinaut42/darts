@@ -165,7 +165,7 @@ app.layout = html.Div([
             1, 100, 1,
             value=10,
             allow_direct_input=False,
-            id='spread'),
+            id='spread')),
         # style=dict(
         #     width=800)),
     dcc.Loading(
