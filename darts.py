@@ -161,7 +161,7 @@ app.layout = html.Div([
     html.Div(
         dcc.Slider(
             1, 100, 1,
-            value=10,
+            value=25,
             allow_direct_input=False,
             id='spread')),
     dcc.Loading(
