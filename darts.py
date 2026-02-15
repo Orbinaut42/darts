@@ -125,8 +125,6 @@ def update_output(spread):
         score_map,
         color_continuous_scale='hot',
         zmax=60,
-        width=400,
-        height=400,
         origin='lower')
 
     fig.update_traces(hovertemplate='Score: %{z}<extra></extra>')
@@ -166,8 +164,6 @@ app.layout = html.Div([
             value=10,
             allow_direct_input=False,
             id='spread')),
-        # style=dict(
-        #     width=800)),
     dcc.Loading(
         dcc.Graph(
             id='score-map',
