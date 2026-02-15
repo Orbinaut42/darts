@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 board_size = 1000
-board_range_mm = np.linspace(-200, 200, 380, endpoint=False)
+board_range_mm = np.linspace(-200, 200, 400, endpoint=False)
 
 
 def score_polar(r, th):
